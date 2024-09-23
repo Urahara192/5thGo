@@ -13,7 +13,7 @@ type Person struct {
 
 // Метод для вывода информации о человеке
 func (p Person) Info() string {
-	return fmt.Sprintf("Name: %s, Age: %d", p.name, p.age)
+	return fmt.Sprintf("Имя: %s, Возраст: %d", p.name, p.age)
 }
 
 // Метод birthday для увеличения возраста на 1 год
